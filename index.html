@@ -4,9 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>|| badge component</title>
   </head>
   <body>
-    <div></div>
+    <div class="main-container">
+      <div>
+        <span class="badge-text">Text with a badge</span>
+        <span class="badge">4</span>
+      </div>
+      <div>
+        <span>Text with large badge</span>
+        <span class="l-badge badge">6</span>
+      </div>
+      <div>
+        <span>Button with a badge on the left</span>
+        <span>
+          <span class="badge badge-prime left-badge">4</span>
+          <button class="badge-button">Action</button>
+        </span>
+      </div>
+      <div>
+        <span>Button toggles badge visibility</span>
+        <span
+          ><button class="badge-button hide-bage-btn">Hide</button
+          ><span class="badge badge-red badge-hide">4</span></span
+        >
+      </div>
+      <div>
+        <span>Icon with a badge </span>
+        <span>
+          <i class="bi bi-house-door-fill"></i>
+          <span class="badge">4</span>
+        </span>
+      </div>
+    </div>
   </body>
+  <script src="app.js"></script>
 </html>
